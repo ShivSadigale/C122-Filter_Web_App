@@ -18,7 +18,7 @@ function preload() {
  
  function draw() {
     image(video, 0, 0, 400, 300);
-    image(img, noseX - 120, noseY-120, 120, 240);
+    image(img, noseX - 120, noseY-120, 200, 240);
  }
  
  function take_snapshot() {
