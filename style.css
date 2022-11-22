@@ -1,0 +1,30 @@
+body {
+    font-family:'Yeon Sung', cursive;
+}
+
+
+
+h3 {
+    font-size: 40px ;
+}
+
+btn-success:hover {
+    background-color:rgb(255, 149, 0);
+}
+
+canvas {
+    animation-name:example;
+    animation-duration:2.5s;
+    animation-iteration-count:infinite;
+    margin-top: 50px;
+}
+
+@keyframes example {
+    from{box-shadow:1px 1px 50px red;}
+    to{box-shadow:1px 1px 50px orange;}
+    to{box-shadow:1px 1px 50px yellow;}
+    to{box-shadow:1px 1px 50px green;}
+    to{box-shadow:1px 1px 50px skyblue;}
+    to{box-shadow:1px 1px 50px indigo;}
+    to{box-shadow:1px 1px 50px purple;}
+}
