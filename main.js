@@ -1,3 +1,6 @@
+var noseX = "";
+var noseY = "";
+
 function preload() { 
     img = loadImage('https://i.postimg.cc/C5j5h73M/images-removebg-preview.png');
  }
@@ -15,7 +18,7 @@ function preload() {
  
  function draw() {
     image(video, 0, 0, 400, 300);
-    image(img, noseX-20, noseY-15, 55, 35);
+    image(img, noseX - 20, noseY-15, 55, 35);
  }
  
  function take_snapshot() {
